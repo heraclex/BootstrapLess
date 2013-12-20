@@ -13,3 +13,9 @@ Bundle Transformer: LESS 1.8.14: http://www.nuget.org/packages/BundleTransformer
   To encrypt less files with by bundle
 
 Download source bootstrap: http://getbootstrap.com/
+
+Error: .pull-right>.dropdown-menu is undefined on line 183 in file 'less/dropdowns.less':
+[182]:     .dropdown-menu {
+[183]:       .pull-right > .dropdown-menu();
+       ------^
+[184]:     }
